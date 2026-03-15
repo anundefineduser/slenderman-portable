@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SlenderFlashlightScript : MonoBehaviour {
+public class SlenderFlashlightScript : MonoBehaviour
+{
     [SerializeField] private Light torch;
+    [SerializeField] private AudioSource flashlightSource;
     [SerializeField] private float battery = 100f;
 
     private void Update()
@@ -15,6 +17,7 @@ public class SlenderFlashlightScript : MonoBehaviour {
                 if (battery > 0f)
                     torch.enabled = true;
             }
+            flashlightSource.Play();
         }
     }
 }

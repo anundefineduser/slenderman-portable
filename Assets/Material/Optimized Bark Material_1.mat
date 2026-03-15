@@ -53,6 +53,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - first:
+        name: _AO
+      second: 0
+    - first:
+        name: _BaseLight
+      second: 0.35
+    - first:
         name: _Cutoff
       second: 0.3
     - first:
