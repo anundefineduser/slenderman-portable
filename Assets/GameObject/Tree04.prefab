@@ -58,6 +58,14 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 125
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6b06c9f483de16499102e61fb4f9217, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: abda0bac360c511459907a53c79f547e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: -978800336}
@@ -84,8 +92,8 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: dae3431bbaa7d9349818e01a2cd99359, type: 2}
-  - {fileID: 2100000, guid: d8042bd5e771d8c47aebd8daa6bbdf07, type: 2}
+  - {fileID: 2100000, guid: f6b06c9f483de16499102e61fb4f9217, type: 2}
+  - {fileID: 2100000, guid: abda0bac360c511459907a53c79f547e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_LightProbeUsage: 0
